@@ -5,7 +5,7 @@
 	border: 2px outset #1eb;
 	border-radius: 3px;
 	text-decoration: none;
-
+	font: initial;
 }
 
 .button:active {
