@@ -1,8 +1,7 @@
 .button {
 	display: inline-block;
 	background-color: #1eb;
-	padding: 7px;
-	border: 2px outset #1eb;
+
 	border-radius: 3px;
 	text-decoration: none;
 	font: initial;
@@ -18,5 +17,23 @@
 .button:visited {
 	color: initial;
 	text-decoration: none;
+}
+
+.button-sm {
+	font-size: .8em;
+	padding: 5px;
+	border: 1px outset #1eb;
+}
+
+.button-md {
+	font-size: 1em;
+	padding: 7px;
+	border: 2px outset #1eb;
+}
+
+.button-lg {
+	font-size: 1.2em;
+	padding: 10px;
+	border: 3px outset #1eb;
 }
 
