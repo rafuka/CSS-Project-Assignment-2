@@ -1,4 +1,13 @@
 .button {
 	display: inline-block;
 	background-color: #1eb;
+	padding: 7px;
+	border-style: outset;
+	border-color: #1eb;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.button:active {
+	border-style: inset;
 }
