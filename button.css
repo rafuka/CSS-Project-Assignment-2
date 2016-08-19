@@ -11,3 +11,7 @@
 .button:active {
 	border-style: inset;
 }
+
+.button:focus {
+	border-color: red;
+}
