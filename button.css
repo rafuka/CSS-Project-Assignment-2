@@ -2,10 +2,10 @@
 	display: inline-block;
 	background-color: #1eb;
 	padding: 7px;
-	border-style: outset;
-	border-color: #1eb;
-	text-decoration: none;
+	border: 2px outset #1eb;
 	border-radius: 3px;
+	text-decoration: none;
+
 }
 
 .button:active {
