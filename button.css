@@ -7,6 +7,7 @@
 	text-decoration: none;
 	font: initial;
 	outline: none;
+	cursor: pointer;
 }
 
 .button:active {
