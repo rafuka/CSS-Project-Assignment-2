@@ -6,12 +6,16 @@
 	border-radius: 3px;
 	text-decoration: none;
 	font: initial;
+	outline: none;
 }
 
 .button:active {
 	border-style: inset;
+	color: initial;
 }
 
-.button:focus {
-	border-color: red;
+.button:visited {
+	color: initial;
+	text-decoration: none;
 }
+
