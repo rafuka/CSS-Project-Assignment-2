@@ -1,41 +1,51 @@
 .button {
 	display: inline-block;
-	background-color: #1eb;
-	border: 1px outset #1eb;
-	border-radius: 3px;
+	background-color: #37d082;
+	border-radius: 5px;
 	text-decoration: none;
 	font: initial;
 	outline: none;
 	cursor: pointer;
 	padding: 0px;
 	color: initial;
+	border: none;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+	color: white;
+	-webkit-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin: 10px 20px;
+}
+
+.button:hover {
+	box-shadow: 7px 7px 10px rgba(0,0,0,0.2);
 }
 
 .button:active {
-	border-style: inset;
-	color: initial;
+	color: white;
+	box-shadow: none;
 }
 
 .button:visited {
-	color: initial;
+	color: white;
 	text-decoration: none;
 }
 
 .button-sm {
 	font-size: .8em;
 	padding: 5px;
-	border: 1px outset #1eb;
+
 }
 
 .button-md {
 	font-size: 1em;
 	padding: 7px;
-	border: 2px outset #1eb;
+
 }
 
 .button-lg {
 	font-size: 1.2em;
 	padding: 10px;
-	border: 3px outset #1eb;
+
 }
 
